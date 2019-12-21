@@ -1,0 +1,8 @@
+[href^="/"],
+[href^="http://www.google.com"] {
+    color: red;
+}
+
+a {
+    color: rebeccapurple;
+}

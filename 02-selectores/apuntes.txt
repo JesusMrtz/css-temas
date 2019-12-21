@@ -1,0 +1,26 @@
+Para dominar CSS debes dominar selectores, especificidad, herencia y cascada
+
+
+Los selectores especifican a que elemento o grupo de elementos se le aplicarán los estilos CSS
+
+
+Los navegadores traen estilos predeterminados para las etiquetas HTML
+
+
+SELECTORES SENCILLOS 
+    - de elemento o de tipo. Se selecciona la etiqueta HTML o XML (se utiliza para normalizar estilos)
+    - de clase. se selecciona a partir de la clase que tiene la etiqueta HTML o XML
+    - de ID. identificador único que no se repetirá (no recomendable para CSS y si para Js)
+    - Universal. Selecciona todos los elementos del documento HTML O XML (se utiliza para el hack del box-sizing)
+
+SELECTORES COMPUESTOS - Hay mas de un selector y que combinados hacen una selección diferente
+    - de agrupación. Se le aplica el mismo estilo por las comas
+    - descendiente. Agregar los estilos al ancestro de una etiqueta 
+    - hijo directo. Seleccionar el hijo directo 
+    - hermano siguiente. Selecciona al elemento que está justo después del otro
+    - hermanos siguientes. Selecciona todos los hermanos siguientes 
+
+SELECTOR DE ATRIBUTO - Selecciona por cualquier atributo y se encierra ente corchetes "[]"
+    - de atributo - Selecciona los elementos que contangan los atributos a seleccionar
+    - que comeinzan con. 
+    - que terminan con.

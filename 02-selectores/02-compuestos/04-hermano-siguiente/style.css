@@ -1,0 +1,29 @@
+:root {
+    --color-title: green;
+    --color-subtitle: rebeccapurple;
+}
+
+body {
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: .5em;
+    margin-top: -2em;
+}
+
+.title1 {
+    color: var(--color-title);
+}
+
+.title2 {
+    color: var(--color-subtitle);
+}
+
+.title1+.subtitle {
+    color: var(--color-title);
+}
+
+.title2+.subtitle {
+    color: var(--color-subtitle);
+}

@@ -1,0 +1,42 @@
+* background-color
+    - background-color: red; 
+
+* background-image 
+    - background: url(imagen.jpg);
+
+* background-repeat
+    - background-repeat: repeat | no-repeat | repeat-x | repeat-y
+
+* background-clip 
+    - Que parte de la caja es cubierta por el fondo 
+    - background-clip: border-box | padding-box | content-box
+
+* background-origin
+    - Desde que caja se empieza a dibujar el fondo 
+    - background-origin: border-box | padding-box | content-box
+
+* background-size
+    - Permite definir el tamaño del fondo (solo aplica para background image)
+    - backgrond-size: 
+                    - width = height
+                    - width height
+                    - contain | cover | auto 
+                        * contain. La imagen sea lo mas grande posible pero que entre en la caja respectiva, que no se escape
+                        * cover. La estira todo lo posible para rellenar la respectiva caja
+                        * auto. Dar el tamaño original a la imagen (es lo mismo que no poner background-size)
+
+* background-position
+    - Posiciona la imagen 
+    - x = y 
+    - x y 
+    - left | center | right <unit> top | center | bottom <unit>
+
+* background-attachment
+    - Como se dibuja el fondo respecto al viewport
+
+
+SHURTHAND background 
+
+
+* background
+    - background: image position / size repeat attachment origin clip;

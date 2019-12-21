@@ -1,0 +1,30 @@
+¿Como se dibuja un borde respecto al fondo?
+    - los bordes no son una propiedad externa, la unica propiedad externa es margin
+
+Los shorthand que hay en los bordes son: 
+    - border-top: 1px solid red;
+    - border-right: 1px solid red; 
+    - border-bottom: 1px solid red;
+    - border left: 1px solid red;
+    - border-style 
+    - border-color 
+    - border-width 
+    - border 
+
+
+PROPIEDADES DE BORDER RADIUS 
+    - border-top-left-radius: x y;
+    - border-top-right-radius: 
+    - border-bottom-left-radius 
+    - border-bottom-right-radius
+    - border-radius x x x x / y y y y
+
+
+PROPIEDADES box-shadow 
+    - box-shadow: h-offset  v-offset blur spread color | inset 
+        h-offet: Movimiento, desplazamiento horizontal 
+        v- offset: Movimiento, desplazamiento en vertical 
+        blur: difuminado 
+        spread: Cuanto se expander 
+        color: color 
+        inset: La sombra se dibujarà interior o exterior

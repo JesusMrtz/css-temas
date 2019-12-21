@@ -1,0 +1,29 @@
+¿Què es CSS?
+    - CSS es un lenguaje de estilo (Cascade Style Sheets) se encarga de describir el renderizado de documentos estructurados como HTML y XML  (SVG)
+
+
+HISTORIA 
+    - Desde su creaciòn, se pensò que la web deberìa separar estructura de presentación.
+
+    - Hubo varios intenros de crear un lenguaje de estilos y cada navegador creaba su propia forma.
+
+    - Incluso se manejaban los estilos a través de atributos de HTML.
+
+    - en 1994 CSS fue presentado y causó mucha discusión. Se decia que era demasiado simple y que se necesitabla un lenguaje de programación para los estilos.
+
+    - El primer navegador en implementar CSS fue IE3.
+
+    - Luego llegó Netscape 4 con JSSS.
+
+
+MODULOS CSS 
+    - Working Draf - Candidate Recomendation - Recomendation 
+
+    https://www.w3.org/Style/CSS/specs.en.html
+
+
+CONECTAR CSS EN ARCHIVOS HTML
+    - Usar la etiqueta link. <link rel="stylesheet" href="style.css">
+    - Usar @import url(linkCss.css) (no recomendada). El problema es que cuando se trae varios css y uno no carga, este te bloquea la carga de los demás.
+    - Etiqueta <style></style>
+    - Inyectar los estilos directamente a las etiquetas

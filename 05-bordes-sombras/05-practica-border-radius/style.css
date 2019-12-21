@@ -1,0 +1,31 @@
+:root {
+    --border-radius-x: 60px;
+    --border-radius-y: 120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 350px;
+    background: hsl(10, 90%, 50%);
+    padding-top: 0.1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: var(--border-radius-x) var(--border-radius-y);
+    border-top-right-radius: var(--border-radius-x) var(--border-radius-y);
+    border-bottom-right-radius: var(--border-radius-x) var(--border-radius-y);
+    border-bottom-left-radius: var(--border-radius-x) var(--border-radius-y);
+}
+
+.play {
+    width: 200px;
+    height: 200px;
+    border: 100px solid;
+    color: white;
+    margin-left: 210px;
+    margin-top: 75px;
+    border-color: transparent transparent transparent white;
+}

@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background: yellow;
+    background-clip: content-box;
+    width: 500px;
+    height: 300px;
+    /* Box model */
+    padding: 50px;
+    margin: 100px;
+    border: 10px solid black;
+}

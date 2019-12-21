@@ -1,0 +1,13 @@
+:root {
+    --color: rebeccapurple;
+}
+
+body {
+    background: var(--color);
+    margin: 10px;
+}
+
+h1 {
+    background: white;
+    color: var(--color);
+}

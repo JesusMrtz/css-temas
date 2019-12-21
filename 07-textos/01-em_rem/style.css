@@ -1,0 +1,12 @@
+:root {
+    font-size: 4px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+span {
+    font-size: 4rem;
+    color: red;
+}

@@ -1,0 +1,10 @@
+article {
+    font-size: 8em;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-weight: bold;
+    font-style: italic;
+}
+
+span {
+    font-size: .5em;
+}

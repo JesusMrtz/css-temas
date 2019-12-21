@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(img/html5.png) 0 20px / 15%, url(https://ed.team/static/images/logo.svg) bottom 20px right 20px / 25%, url(img/tigre.png) center / contain, yellow;
+    background-repeat: no-repeat;
+}

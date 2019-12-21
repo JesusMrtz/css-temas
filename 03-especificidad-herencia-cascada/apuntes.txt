@@ -1,0 +1,29 @@
+- La gente que no entiende CSS reniegan de él
+- Los problemas de CSS generalmente están el el código que ya existe, asi que no debes solucionarlo añadiendo mas CSS 
+- Cuando un proyecto crece, se utiliza una arquitectura CSS 
+    - SMACCSS
+    - OOCSS
+    - ITCSS 
+- Cuando se trae librerías o Frameworks a tus proyectos, estos pueden generar conflictos 
+
+
+ESPECIFICIDAD 
+    - Que selector es mas especifico que otro
+
+    Valor de especificidad 
+        - tag = 1
+        - clases = 10
+        - id = 100 
+        - inline = 1000
+        - !mportant = Le gana a todos
+
+
+CASCADA 
+    - Lo que viene después sobrescribe lo que está antes
+    - Siempre le hará caso al último siempre y cuando tengan la misma especificidad (si no es asi, gana la especificidad)
+
+
+HERENCIA    
+    - Los descendientes heredan de sus projenitores
+    - initial. Regresa sus valores iniciales
+    - inherit. Forza a heredar estilos CSS de su padre

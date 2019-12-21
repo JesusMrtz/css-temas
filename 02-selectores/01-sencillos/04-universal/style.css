@@ -1,0 +1,23 @@
+/*
+* {
+    color: red;
+}
+*/
+
+body {
+    font-size: 2em;
+}
+
+ul * {
+    color: red;
+    display: none;
+}
+
+.last {
+    color: blue;
+}
+
+span {
+    color: blue;
+    display: block;
+}

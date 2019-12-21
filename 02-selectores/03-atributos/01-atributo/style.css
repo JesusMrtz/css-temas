@@ -1,0 +1,22 @@
+[type="email"] {
+    border: 1px solid blue;
+}
+
+[type="submit"] {
+    background: red;
+    color: white;
+    border: none;
+}
+
+[type] {
+    font-size: 2em;
+}
+
+[required] {
+    border: 1px solid red;
+}
+
+:optional {
+    background: yellow;
+    ;
+}

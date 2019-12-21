@@ -1,0 +1,86 @@
+* Unidades em y rem
+    - em. El tamaño de fuente del contexto (el tamaño es variable porque depende del contexto)
+    - rem. El tamaño de fuente del root (el tamaño no es variable porque depende de la raíz)
+
+
+
+ ALINIEADO DE TEXTO 
+    - direction
+        * Cambiar la dirección del texto 
+        *  direction: ltr | rtl
+
+    - text-ident
+        * Identar la primera linea de un párrafo
+        * text-ident: 2em;
+
+    - text-align:
+        * Alinea el texto 
+        * text-align: start | end | left | center | right | justify
+
+    - text-align-last 
+        * Alinea el ùltimo renglon del párrafo 
+        * text-align left | center | right |justify
+
+    - line-height 
+        * Nos permite definir la altura de cada linea del párrafo
+        * line-height: 1.5 (se recomienda de 1.3 a 1.6 para una buena lectura)
+        * Un truco para centrar vertical si es solo una sola linea es ponerle en el line-height la altura del contenedor
+
+    - vertical-align
+        * Como se alineará el texto del párrafo
+        * vertical-align: baseline | top | middle | bottom 
+
+
+FLUJO DEL TEXTO 
+    - letter-spacing 
+        * Espaciado entre letras
+
+    - word-spacing
+        * Espaciado entre palabras
+
+
+DECORACIÓN 
+    - text-decoration 
+        * text-decoration-line: underline | line-through | overline 
+        * text-decoration-color 
+        * text-decoration-style: solid | dashed | dotted | double
+
+    - text-shadow 
+        * h-offset v-offset blur color 
+
+    - white-space 
+        * Nos permite manejar los espacios en blanco en el código
+        * white-space: normal | pre | nowrap | pre-wrap | pre-line 
+            * nowrap. No sala de linea 
+            * prewrap. Salta de linea y conserva espacio 
+            * pre-line. Salta del linea y no conserva espacio
+
+
+
+DESBORDAMIENTO 
+    - word-break 
+        * Parte las palabras que sobresalen del borde 
+        * word-break: normal | break-all | keep-all
+    
+    - word-wrap 
+        * Parte las palabras que sobresalen del borde siempre y cuando la palabra en si misma ocupe mas tamaño que el tamaño de su contenedor
+        * word-wrap: normal | break-word 
+    ** LA OPCIÓN MAS OPTIMA ES UTILIZAR word-break que word-wrap
+
+    - text-overflow 
+        * Con overflow todo lo que se escape de la caja se oculte
+        * text-overflow: clip | ellipsis
+
+
+
+TEXTO VERTICALES 
+    - writing-mode: vertical-lr; 
+    - text-orientation: upright;
+    ** SE COMBINANA ESTAS DOS PROPIEDADES
+
+
+
+TRANSFORMACIONES DE TEXTOS 
+    - text-transform
+        * transforma el texto 
+        * text-transform: uppercase | lowwercase | capitalize | none;

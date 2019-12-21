@@ -1,0 +1,41 @@
+DIFERENCIAS TEXTO DE FUENTES 
+    * El texto es el contenido, la fuente es el tipo de tipografia 
+
+
+* font-family 
+    - Es la familia tipografica 
+    - Familias tipograficas principales:
+        * serif 
+        * sans-serif 
+        * monospace 
+        * display 
+        * cursive 
+    - Remoendable poner 3 tipos de tipografía y al fina una principal 
+    - font-family: 'Opcion 1', opcion2, opcion3;
+
+* font-size 
+    - Nos permite definir el tamaño de la tipografía
+    - font-size: px | em | rem 
+
+* font-weight
+    - Cambia el grosor de la tipografia
+    - font-wight: normal | bold | lighter | bolder 
+    - font-weight: 100 | 200 | 300 ... | 900
+
+- font-style 
+    - Pone las tipografia en italica si es que la tiene, si no el navegador hará una pseudo italica 
+    - font-style: normal | italic | oblique
+
+
+SHORTAND font 
+    - font: font-family font-size / line-height
+
+
+
+@font-face 
+    - @font-face {
+        font-family: nombre ;
+        font-weight: value;
+        font-style: value:
+        src: local(font) utl(path) format(woff2)
+    }
